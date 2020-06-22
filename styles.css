@@ -1,0 +1,64 @@
+body {
+	background-color: #BDF1F6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.85em;
+  color: rgba(66,66,66 ,1);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+main {
+  width: 75%;
+  background-color: #F2FCFC;
+  display: flex;
+  border-radius: 15px;
+}
+
+/*make the width of both 50% i.e half and equal.*/
+section, form {
+  width: 50%;
+  padding: 70px 50px;
+}
+
+section {
+  text-align: center
+}
+
+
+p {
+  line-height: 1.7 /* change this to a higher value like 2 0r 3 to see the difference*/
+}
+
+/*Reduce the width of the image*/
+img {
+  width: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.signup-form input{
+  margin:20px 0px;
+   box-sizing: border-box;
+  padding: 12px 10px 12px 2px;
+  border:none;
+  font-family: 'Montserrat', sans-serif;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+button[type="submit"]{
+  color:rgb(231, 226, 226);
+  font-weight: bold;
+  border:none;
+  border-radius:35px;
+  margin:10px 0px;
+  padding :10px 20px;
+  background-color: rgb(52, 140, 240);
+  letter-spacing: 0.1em; 
+}
+
